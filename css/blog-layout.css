@@ -1,0 +1,23 @@
+@media screen and (max-width:899px) {
+    .blog-wrapper {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        display: flex;
+        flex-direction: column;
+        background-color: #FCC;
+        animation: gradation 10s ease infinite;
+    }
+}
+
+
+@media screen and (min-width:900px) {
+    .blog-wrapper {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) 300px;
+        grid-template-rows: auto 450px auto;
+        background-color: #FCC;
+        animation: gradation 10s ease infinite;
+    }
+}

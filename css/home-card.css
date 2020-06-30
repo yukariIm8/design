@@ -1,0 +1,183 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    position:relative!important;
+    margin: 2rem;
+    padding: 1rem;
+    width: 350px;
+    height: 400px;
+    border: 1px solid #fff;
+    border-radius: 0.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #fff;
+}
+
+
+@media screen and (max-width:414px) {
+    .card {
+        height: auto;
+    }
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.card-content {
+    display: grid;
+    grid-template-rows: 200px auto;
+}
+
+
+@media screen and (max-width:375px) {
+    .card-content {
+        grid-template-rows: 150px auto;
+    }
+}
+
+
+.card-image {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+.image1 {
+    background-image: url("../image/research.JPG");
+    background-size: cover;
+}
+
+
+.image2 {
+    background-image: url("../image/discovery.JPG");
+    background-size: cover;
+}
+
+
+.image3 {
+    background-image: url("../image/design.JPG");
+    background-size: cover;
+}
+
+
+.image4 {
+    background-image: url("../image/develop.JPG");
+    background-size: cover;
+}
+
+
+.image5 {
+    background-image: url("../image/test.JPG");
+    background-size: cover;
+}
+
+
+.image6 {
+    background-image: url("../image/iteration.JPG");
+    background-size: cover;
+}
+
+
+.image7 {
+    background-image: url("../image/solution.JPG");
+    background-size: cover;
+}
+
+
+.image8 {
+    background-image: url("../image/reflection.jpg");
+    background-size: cover;
+}
+
+
+.research {
+    color: #16F;
+}
+
+
+.discovery {
+    color: #3C6;
+}
+
+
+.design {
+    color: #C0F;
+}
+
+
+.develop {
+    color: #0CF;
+}
+
+
+.test {
+    color: #F60;
+}
+
+
+.solution {
+    color: #F39;
+}
+
+
+.reflection {
+    color: #FC0;
+}
+
+
+h1 {
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-family: Lora, Times, "Times New Roman", Serif;
+    letter-spacing: 0.1rem;
+}
+
+
+h2 {
+    padding: 1rem 0 0 0.5rem;
+    font-size: 1.6rem;
+}
+
+
+h3 {
+    padding: 0 0 0.5rem 0.5rem;
+    font-size: 1.3rem;
+    color: #666;
+}
+
+
+p {
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+
+.stretched-link:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events:auto;
+  content: "";
+  background-color: rgba(0,0,0,0)
+}
+
+
+.blog-button {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #EDD;
+    border-radius: 0.3rem;
+    background-color: #EDD;
+    font-size: 1.3rem;
+    font-family: Karla, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #666;
+
+}

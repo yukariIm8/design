@@ -1,0 +1,148 @@
+@media screen and (max-width:414px) {
+    .page-title {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 1.2rem 0 0 2rem;
+        text-align: left;
+    }
+
+
+    .blog-content {
+        margin: 2rem 2rem 2rem 2rem;
+        padding: 1rem;
+        border-radius: 0.3rem;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: #FFF;
+    }
+}
+
+
+@media screen and (min-width:415px) {
+    .page-title {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 1.2rem 0 0 2rem;
+        text-align: left;
+    }
+
+
+    .blog-content {
+        margin: 2rem 5rem 5rem 5rem;
+        padding: 5rem;
+        border-radius: 0.3rem;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: #FFF;
+    }
+}
+
+
+@media screen and (min-width:900px) {
+    .page-title {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 1.2rem 0 0 2rem;
+        text-align: left;
+    }
+
+
+    .blog-content {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        margin: 2rem 5rem 5rem 5rem;
+        padding: 5rem;
+        border-radius: 0.3rem;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: #FFF;
+    }
+}
+
+
+.title-text {
+    font-size: 2rem;
+    font-family: Karla, Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+
+.blog-text {
+    line-height: 2;
+}
+
+
+.list-features {
+    padding: 1rem 0 1rem 5rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+
+.blog-image {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.image-discovery,
+.image-design,
+.image-research,
+.image-reflection {
+    width: 60%;
+}
+
+@media screen and (max-width:600px) {
+    .image-discovery,
+    .image-design,
+    .image-research,
+    .image-reflection {
+        width: 90%;
+    }
+}
+
+
+.image-develop,
+.image-test,
+.image-iteration,
+.image-solution {
+    width: 100%;
+}
+
+
+.image-caption {
+    font-size: 1.4rem;
+    font-family: Lora, Times, "Times New Roman", Serif;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.prototype-button {
+    padding: 1rem;
+    border: 1px solid #EDD;
+    border-radius: 0.3rem;
+    background-color: #F39;
+    font-size: 1.3rem;
+    font-family: Karla, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.prototype-button:hover {
+    background-color: #F69;
+}
+
+
+.blog-quote {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2;
+    color: #969;
+}

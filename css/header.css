@@ -1,0 +1,134 @@
+
+@media screen and (max-width:414px) {
+    .header-nav {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .brand-title {
+        padding: 1.2rem;
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: #F39;
+    }
+
+
+    .brand-link {
+        color: #F39;
+        text-decoration: none;
+    }
+
+
+    .nav-bar {
+        background-image: radial-gradient(#EEE 10%, transparent 20%),
+        radial-gradient(#EEE 10%, transparent 20%);
+        background-position: 0 0, 10px 10px;
+        background-size: 20px 20px;
+    }
+
+
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .nav-list-item {
+        padding: 1.2rem;
+        font-size: 1.2rem;
+        list-style: none;
+    }
+
+
+    .nav-list-item:hover {
+        border-radius: 2rem;
+        background-color: #EDD;
+    }
+
+
+    .nav-link {
+        padding-bottom: 2px;
+        font-weight: 700;
+        color: #F39;
+        text-decoration: none;
+    }
+
+
+    .active {
+        border-bottom: 2px solid #EDD;
+    }
+}
+
+
+@media screen and (min-width:415px) {
+    .header-nav {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        display: flex;
+        padding: 1.2rem;
+    }
+
+
+    .brand-title {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 10rem;
+        padding: 1.2rem;
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: #F39;
+    }
+
+
+    .brand-link {
+        color: #F39;
+        text-decoration: none;
+    }
+
+
+    .nav-bar {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+
+    .nav-list {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    .nav-list-item {
+        padding: 1.2rem;
+        list-style: none;
+    }
+
+
+    .nav-list-item:hover {
+        border-radius: 2rem;
+        background-color: #EDD;
+    }
+
+
+    .nav-link {
+        padding-bottom: 2px;
+        font-weight: 700;
+        color: #F39;
+        text-decoration: none;
+    }
+
+
+    .active {
+        border-bottom: 2px solid #EDD;
+    }
+}

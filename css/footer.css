@@ -1,0 +1,34 @@
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+    flex-direction: column;
+    height: 7rem;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    background-color: #F39;
+}
+
+
+.footer-text {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+
+.icon8-text {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.icon8-link {
+    text-decoration: none;
+    color: #FFF;
+}

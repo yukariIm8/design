@@ -1,0 +1,83 @@
+.contact-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    background-color: #FFF;
+	background-image: radial-gradient(#EEE 10%, transparent 20%), radial-gradient(#EEE 10%, transparent 20%);
+	background-position: 0 0, 10px 10px;
+	background-size: 20px 20px;
+}
+
+
+.get-in-touch {
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+
+.subscribe-form {
+    padding: 1rem;
+    border: 1px solid #EDD;
+    color: #333;
+}
+
+
+.subscribe-button {
+    padding: 1rem;
+    border: 1px solid #EDD;
+    border-radius: 0.3rem;
+    background-color: #EDD;
+    font-size: 1.3rem;
+    font-family: Karla, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #666;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+
+
+.say-hi {
+    margin: 2rem;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+
+.social-icon {
+    margin: 5px;
+    padding: 25px;
+}
+
+
+.linkedin {
+    background-image: url("../image/icons8-linkedin-circled-50.png");
+}
+
+
+.github {
+    background-image: url("../image/icons8-github-50.png");
+}
+
+
+.twitter {
+    background-image: url("../image/icons8-twitter-circled-50.png");
+}
+
+
+.facebook {
+    background-image: url("../image/icons8-facebook-50.png");
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lora&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Karla, Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5vh, auto) auto auto minmax(5vh, auto);
+    background-color: #fff;
+}
