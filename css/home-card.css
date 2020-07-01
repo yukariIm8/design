@@ -179,5 +179,6 @@ p {
     font-weight: 700;
     text-decoration: none;
     color: #666;
-
+    -moz-appearance: none;
+    -webkit-appearance: none;
 }

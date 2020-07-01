@@ -40,6 +40,8 @@
     color: #666;
     text-decoration: none;
     cursor: not-allowed;
+    -moz-appearance: none;
+    -webkit-appearance: none;
 }
 
 
