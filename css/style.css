@@ -14,3 +14,7 @@
 @import "./blog-content.css";
 @import "./blog-author.css";
 @import "./blog-nav.css";
+
+/* Develop */
+@import "./develop-layout.css";
+@import "./develop-content.css";
