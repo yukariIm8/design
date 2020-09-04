@@ -1,4 +1,4 @@
-@media screen and (max-width:414px) {
+@media screen and (max-width:415px) {
     .dev-content {
         margin: 2rem 2rem 2rem 2rem;
         padding: 1rem;
@@ -9,7 +9,7 @@
 }
 
 
-@media screen and (min-width:415px) {
+@media screen and (min-width:416px) {
     .dev-content {
         margin: 2rem 5rem 5rem 5rem;
         padding: 5rem;

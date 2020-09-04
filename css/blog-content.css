@@ -1,4 +1,4 @@
-@media screen and (max-width:414px) {
+@media screen and (max-width:415px) {
     .page-title {
         grid-column-start: 1;
         grid-column-end: 5;
@@ -19,7 +19,7 @@
 }
 
 
-@media screen and (min-width:415px) {
+@media screen and (min-width:416px) {
     .page-title {
         grid-column-start: 1;
         grid-column-end: 5;

@@ -1,4 +1,4 @@
-@media screen and (max-width:414px) {
+@media screen and (max-width:415px) {
     .author-wrapper {
         display: grid;
         grid-template-columns: 1fr;
@@ -12,7 +12,7 @@
 }
 
 
-@media screen and (min-width:415px) {
+@media screen and (min-width:416px) {
     .author-wrapper {
         display: grid;
         grid-template-columns: 1fr;

@@ -1,4 +1,4 @@
-@media screen and (max-width:414px) {
+@media screen and (max-width:415px) {
     .about-content {
         display: flex;
         flex-direction: column;
@@ -34,7 +34,7 @@
 }
 
 
-@media screen and (min-width: 415px) and (max-width: 899px) {
+@media screen and (min-width: 416px) and (max-width: 899px) {
     .about-content {
         display: flex;
         flex-direction: column;
