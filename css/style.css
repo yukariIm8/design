@@ -18,3 +18,7 @@
 /* Develop */
 @import "./develop-layout.css";
 @import "./develop-content.css";
+
+/* About */
+@import "./about-layout.css";
+@import "./about-content.css";
