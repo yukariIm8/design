@@ -1,8 +1,24 @@
-.about-wrapper {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    display: flex;
-    flex-direction: column;
-    background-color: #FCC;
-    animation: gradation 10s ease infinite;
+@media screen and (max-width:415px) {
+    .about-wrapper {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        display: flex;
+        flex-direction: column;
+        background-color: #FCC;
+        animation: gradation 10s ease infinite;
+        margin-top: 80px;
+    }
+}
+
+
+@media screen and (min-width:416px) {
+    .about-wrapper {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        display: flex;
+        flex-direction: column;
+        background-color: #FCC;
+        animation: gradation 10s ease infinite;
+        margin-top: 60px;
+    }
 }

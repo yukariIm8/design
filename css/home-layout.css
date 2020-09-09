@@ -8,6 +8,7 @@
     grid-template-rows: auto auto;
     background-color: #FCC;
     animation: gradation 10s ease infinite;
+    margin-top: 25px;
 }
 
 
