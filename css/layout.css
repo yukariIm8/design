@@ -19,5 +19,6 @@ html {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(5vh, auto) auto auto minmax(5vh, auto);
-    background-color: #fff;
+    background-color: #FCC;
+    animation: gradation 10s ease infinite;
 }
