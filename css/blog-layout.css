@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (min-width:415px) and (max-width:899px) {
+@media screen and (min-width:416px) and (max-width:899px) {
     .blog-wrapper {
         grid-column-start: 1;
         grid-column-end: 5;
