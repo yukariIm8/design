@@ -9,6 +9,8 @@
         flex-direction: column;
         position: fixed;
         width: 100%;
+        z-index: 1000;
+        background-color: rgba(255, 255, 255, 0.5);
     }
 
 
@@ -78,6 +80,8 @@
         position: fixed;
         width: 100%;
         padding: 1.2rem;
+        z-index: 1000;
+        background-color: rgba(255, 255, 255, 0.5);
     }
 
 
