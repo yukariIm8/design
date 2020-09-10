@@ -1,0 +1,108 @@
+@media screen and (max-width:415px) {
+    .art-content {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 0.3rem;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: #FFF;
+    }
+
+
+    .history {
+        width: 100%;
+    }
+    
+    
+    .exhibition {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+        background-color: #FFF;
+    }
+}
+
+
+@media screen and (min-width: 416px) and (max-width: 899px) {
+    .art-content {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 5rem 5rem 5rem;
+        padding: 2rem;
+        border-radius: 0.3rem;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: #FFF;
+    }
+
+
+    .history {
+        width: 100%;
+    }
+    
+    
+    .exhibition {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #FFF;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media screen and (min-width:900px) {
+    .art-content {
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        margin: 2rem 5rem 5rem 5rem;
+        border-radius: 0.3rem;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: #FFF;
+    }
+
+
+    .history {
+        width: 50%;
+        padding: 5rem;
+    }
+    
+    
+    .exhibition {
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        padding: 5rem;
+    }
+}
+
+
+.list-history {
+    padding: 1rem 0 1rem 5rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+
+.image-exhibition {
+    width: 100%;
+    margin: 20px;
+}
+
+
+.caption {
+    text-align: right;
+}

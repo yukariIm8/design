@@ -19,6 +19,10 @@
 @import "./develop-layout.css";
 @import "./develop-content.css";
 
+/* Art */
+@import "./art-layout.css";
+@import "./art-content.css";
+
 /* About */
 @import "./about-layout.css";
 @import "./about-content.css";
